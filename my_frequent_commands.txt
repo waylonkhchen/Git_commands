@@ -1,0 +1,30 @@
+test123
+
+Branches
+
+$ git checkout -b waylonchen
+#add a local branch <waylonchen> and checkout the branch
+
+$ git push origin waylonchen
+#push branch <waylonchen> to origin
+
+$ git branch -a
+#see all the local branches
+
+
+
+============
+Remote
+
+$ git remote add waylon https://github.com/waylonkhchen/Erdos_project.git
+#add a remote <waylon> with the following url 
+
+$git remote set-url <remote-name> <url>
+eg. $git remote set-url origin https://github.com/your-username/your-repo
+#change/set the remote url
+
+$git remote remove <remote_name>
+#remove a remote
+
+
+
